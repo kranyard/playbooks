@@ -1,4 +1,7 @@
-- name: "Create partitions on devices"    
+---
+- hosts: localhost
+  tasks:
+  - debug: msg=Minimal Testo 
   block:   
     - name: install parted
       package:
